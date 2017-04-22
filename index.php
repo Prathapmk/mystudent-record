@@ -1,21 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>PHP Starter Application</title>
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-	<link rel="stylesheet" href="style.css" />
+	<title>Student Info Page</title>
 </head>
 <body>
-	<table>
-		<tr>
-			<td style='width: 30%;'>
-				<img class = 'newappIcon' src='images/newapp-icon.png'>
-			</td>
-			<td>
-				<h1 id = "message"><?php echo "Hello World!"; ?></h1>
-				<p class='description'></p> Thanks for creating a <span class="blue">PHP Starter Application</span>.
-			</td>
-		</tr>
-	</table>
-</body>
-</html>
+	<center>
+	<fieldset>
+<a href="/insert.html">Insert</a></br>
+<a href="/retrieve.php">Fetch All</a></br>
+  	</fieldset>
+  </center>
+	</body></html>
